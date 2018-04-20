@@ -13,7 +13,7 @@ pipelines:
         # says about type of material and url at once
         git: /repos/main_repo
     environment_variables:
-        EMPTY: 
+        EMPTY: "" 
     stages:
       - build: # name of stage
           jobs:
