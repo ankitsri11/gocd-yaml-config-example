@@ -12,6 +12,8 @@ pipelines:
       mygit:  # this is the name of material
         # says about type of material and url at once
         git: /repos/main_repo
+    environment_variables:
+        EMPTY: 
     stages:
       - build: # name of stage
           jobs:
