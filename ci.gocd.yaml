@@ -3,7 +3,7 @@ environments:
     environment_variables:
       EXAMPLE_DEPLOYMENT: testing
     secure_variables:
-      ENV_PASSWORD: "s&Du#@$xsSa"
+      ENV_PASSWORD: testpass
     pipelines:
       - yaml-example
 pipelines:
