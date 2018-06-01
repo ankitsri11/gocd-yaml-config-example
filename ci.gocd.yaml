@@ -3,7 +3,7 @@ environments:
     environment_variables:
       EXAMPLE_DEPLOYMENT: testing
     secure_variables:
-      ENV_PASSWORD: testpass
+      ENV_PASSWORD: "DpwT5lEM3XY="
     pipelines:
       - yaml-example
 pipelines:
