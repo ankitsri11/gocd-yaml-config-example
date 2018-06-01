@@ -2,7 +2,7 @@ environments:
   example:
     environment_variables:
       EXAMPLE_DEPLOYMENT: testing
-         secure_variables:
+    secure_variables:
       ENV_PASSWORD: "s&Du#@$xsSa"
     pipelines:
       - yaml-example
